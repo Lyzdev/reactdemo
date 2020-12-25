@@ -1,0 +1,8 @@
+// global
+export const SET_BASE_HTML_CONF='SET_BASE_HTML_CONF'
+export const RESET_BASE_HTML_CONF='RESET_BASE_HTML_CONF'
+
+
+
+
+

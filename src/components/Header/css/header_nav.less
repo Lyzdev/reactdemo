@@ -1,0 +1,29 @@
+@fontcolor:#7f7f7f;
+@bgcolor:#efefef;
+.aspect (@w, @h) {
+    height: @h;
+    width: @w;
+}
+
+.header-nav{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 1.16em;
+    .nav-item{
+        .aspect(100%,100%);
+        padding: 0 10px;
+        display: flex;
+        &>a{
+            align-self: center;
+            color:@fontcolor;
+        }
+        &:hover{
+            background-color: @bgcolor;
+        }
+    }
+    .nav-item-active{
+        background-color: @bgcolor;
+    }
+}
